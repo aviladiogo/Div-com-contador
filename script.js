@@ -1,13 +1,26 @@
 console.log('hello!')
-vezes = 0 
-function executaAcao(){
-  var resultadoD = document.getElementById('name')
-  vezes += 1
-  resultadoD.innerHTML = vezes
+vezes = 0
+vezes2 = 0
+function executaAcao(id){
+  var resultado = document.getElementById(id)
+  if(id=="name"){
+    vezes += 1
+    resultado.innerHTML = vezes
+  }else{
+    vezes2 += 1
+    resultado.innerHTML = vezes2
+  }
 }
 
-function zerar (){
-  var resultadoD = document.getElementById('name')
-  vezes = 0
-  resultadoD.innerHTML = vezes
+function zerar (id){
+  var resultado = document.getElementById(id)
+  if(id=="name"){
+    vezes = -1
+    resultado.innerHTML = vezes
+  }else{
+    vezes2 = -1
+    resultado.innerHTML = vezes2
+  }
 }
+
+// document.getElementById('botao').onclick = zerar;
