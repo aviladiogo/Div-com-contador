@@ -7,8 +7,9 @@ body {
   cursor: pointer;
   background: linear-gradient(90deg, rgb(72, 72, 73) 0%, rgb(91, 91, 92) 35%, rgb(39, 39, 39) 100%);;
   text-align: center;
-  margin: 0 auto;
-  padding: 15px;
+  margin: 0 400 20 400;
+  padding: 10px;
+  border-radius: 15px;
   }
   
   #box:hover{
@@ -23,8 +24,9 @@ body {
     cursor: pointer;
     background: linear-gradient(90deg, rgb(48, 48, 179) 0%, rgb(67, 67, 143) 35%, rgb(35, 22, 224) 100%);;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 400 20 400;
     padding: 15px;
+    border-radius: 15px;
     }
     
     #box2:hover{
@@ -34,3 +36,8 @@ body {
     #box2:active{
     color: rgb(250, 250, 250);
     }
+
+#botao {
+  font-size: 15px;
+  padding: 5px;
+}
